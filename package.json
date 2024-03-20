@@ -1,0 +1,13 @@
+{
+  "name": "daxsa",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tailwindcss -i ./styles.css -o ./css/styles.css",
+    "watch": "tailwindcss -i ./styles.css -o ./css/styles.css --watch",
+    "compile": "tailwindcss -i ./styles.css -o ./css/styles.css --minify"
+  },
+  "private": true,
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
